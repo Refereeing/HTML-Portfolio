@@ -1,10 +1,97 @@
+*{
+    /*margin: 0px;*/
+}
+
 h1 {
-    color: rgb(2, 2, 117);
+    color: #020275;
+    font-family: monospace;
+    font-size:xx-large
+}
+
+a:hover {
+    border: 2px; color: black;
+    color: #13a31d;
+}
+
+nav li {
+    display:inline-block !important;
+    background: rgb(235, 201, 90);
+    color: #13a31d;
+    width: 100px;
+    height: 20px;
+    margin: 0px;
+    padding: 1px;
+    padding-bottom: 10px;    
+    margin-left: 120px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 30px;
+    margin-top: 0px;
+    
+}
+
+.OMB {
+    color: #13a31d ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center !important;
+    letter-spacing: 1px;
+    word-spacing: 30px;
+    font-size: xx-large;
+    /*text-align: justify;*/
 }
 
 h2 {
 color: rgb(53, 53, 161);
 }
+
 h3 {
-    color: rgb(76, 92, 160);
+    color:rgb(53, 53, 161) ;
+    /*padding: 700px 90px 700px 90px;*/
+    /*width: 900px;*/
+    /*text-align: center;*/
+    border-radius: 70px;
+    width: 250px;
+    font-weight: lighter;
+    /*margin-left 90px;*/
+}
+
+h4 {
+    color:#13a31d ;
+}
+
+#about, #Vi1, #Vi2 {
+    color:#13a31d;
+    border: 1px solid black;
+    width: 100px;
+    font-size: small;
+}
+
+.F {
+    color:#13a31d;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    }
+#add {
+    color:#13a31d ;
+}
+nav{
+    height:20px;
+    margin-bottom: 30px; 
+}
+.fa-brands {
+    font-size:20px ;
+    color: blue;
+    height: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+section #Contact{
+box-sizing: border-box;
+margin-bottom: 10px;
 }
