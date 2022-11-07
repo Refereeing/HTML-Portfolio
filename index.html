@@ -9,79 +9,75 @@
     <script src="https://kit.fontawesome.com/c2cab31761.js" crossorigin="anonymous"></script>
     
     <style>
-     body{
+        body{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background-color: rgb(180, 224, 180);
-    }
+        background: rgb(98, 231, 233);
+        background: linear-gradient(0deg, rgb(141, 252, 215) 0%, rgba(88, 214, 141, 0.747) 50%);
+        }
     </style>
 </head>
 
-<style>
-    body {
-        /*background-color: lightcyan;*/
-    }
-</style>
-
 <body > 
-    <div>
-     <p class="OMB"> Welcome to my Portfolio</p>
+    <div class="welcome">
+        <h1 class="OMB"> Welcome to my Portfolio</h1>
     </div>
     <hr>
     <section>
         <nav>  
-          <ul type="circle">
-             <li> <i class="fa-solid fa-house"></i>&nbsp<a href="#Home"> Home </a></li>
-             <li> <i class="fa-sharp fa-solid fa-person"></i>&nbsp<a href="#About">About </a></li>
-             <li> <i class="fa-sharp fa-solid fa-briefcase"></i>&nbsp<a href="#Work"> Work </a></li>
-             <li> <i class="fa-regular fa-file"></i>&nbsp<a href="#Resume">Resume</a></li>
-             <li> <i class="fa-solid fa-address-book"></i>&nbsp<a href="#Contact"> Contact </a></li>
-          </ul>
+            <ul type="circle">
+                <li> <i class="fa-solid fa-house"></i>&nbsp<a href="#Home"> Home </a></li>
+                <li> <i class="fa-sharp fa-solid fa-person"></i>&nbsp<a href="#About">About </a></li>
+                <li> <i class="fa-sharp fa-solid fa-briefcase"></i>&nbsp<a href="#Work"> Work </a></li>
+                <li> <i class="fa-regular fa-file"></i>&nbsp<a href="#Resume">Resume</a></li>
+                <li> <i class="fa-solid fa-address-book"></i>&nbsp<a href="#Contact"> Contact </a></li>
+            </ul>
         </nav>
     </section>
     <hr>
- <section> 
+    <section> 
+    <div class="about-me"> 
         <h1><a id="About"> About me </a></h1>
-        <img src="MBO.jpg" width="70px" border="1px" border-radius="10px" >
-       <p>
-          Hello ! I am Omrani Moôtez Belleh, a geologist engineer. Currently, I am looking for a professional conversion. 
-         <br>   I choose to follow a course in Full Stack Javascript since I am fully enthusiastic to become a web developer. <br>
-         GoMyCode has offered me this opportunity and I am quite grateful for that.
-        </p> 
+        <img class= my src="./media files/MBO.jpg">
         <p>
-         Moreover, as a pastime I am a football referee and I am quite active within civic associations.
-        </p>
-     <h4> Please Check out these videos for further information:</h4>
+            Hello ! I am Omrani Moôtez Belleh, a geologist engineer. Currently, I am looking for a professional conversion. 
+            <br>   I choose to follow a course in Full Stack Javascript since I am fully enthusiastic to become a web developer. <br>
+            GoMyCode has offered me this opportunity and I am quite grateful for that. <br>
+            Moreover, as a pastime I am a football referee and I am quite active within civic associations.
+        </p> 
+    </div>
+    <h4> Please Check out these videos for further information:</h4>
+
         <table border="1" width="1000px">
             <tr>
-             <th id="Vi1"> Video 1:Gorilla Test --> Why do you think you can become a web developer ? </th>
-             <th id="Vi2"> Video 2: My portrait as a football referee and entrepreneur_Carthage+ TV </th>
+                <th id="Vi1"> Video 1:Gorilla Test --> Why do you think you can become a web developer ? </th>
+                <th id="Vi2"> Video 2: My portrait as a football referee and entrepreneur_Carthage+ TV </th>
             </tr>
             <tr>
                 <td> 
-                 <video width="400" height="150" src="Video n°3.mp4 " type="video/mp4" controls>
-                 Please check the video extension
-                 </video>
-               </td>
+                    <video width="400" height="150" src="./media files/Video n°3.mp4 n°3.mp4" type="video/mp4" controls>
+                    Please check the video extension
+                    </video>
+                </td>
                 <td>
-                 <video width="400" height="150" src="Portrait_Carthage+TV.mp4" type="video/mp4" controls>
-                 Please check the video extension
-                 </video>
-               </td>
-           </tr>
+                    <video width="400" height="150" src="./media files/Portrait_Carthage+TV.mp4" type="video/mp4" controls>
+                    Please check the video extension
+                    </video>
+                </td>
+            </tr>
         </table>
 
-     </section>
+    </section>
     <hr>
- <section>
-      <h1><a id="Work"> Work </a> </h1>
-      <h4 style="color:#13a31d;"> Open to work </h4>
-      <p>
-         Currently, I teach English language for primary and secondary school. Also, I am entirely open to work in my field of study. <br>
-         Furthermore, I am always keen for new challenges.
-       </p>
- </section>
+    <section>
+        <h1><a id="Work"> Work </a> </h1>
+        <h4 style="color:#13a31d;"> Open to work </h4>
+        <p>
+            Currently, I teach English language for primary and secondary school. Also, I am entirely open to work in my field of study. <br>
+            Furthermore, I am always keen for new challenges.
+        </p>
+    </section>
 
- <hr>
+    <hr>
     <section>
         <h1><a id="Contact"> Contact 
             <style>
@@ -92,51 +88,49 @@
             </style>
         </a></h1>
         
-     <!-- contact info including social media -->
+        <!-- contact info including social media -->
     
         <a href="mootez.belleh.omrani.geologist@gmail.com"><i class="fa-brands fa-envelope"></i></a>&nbsp
         <a href="https://github.com/Refereeing"><i class="fa-brands fa-github"></i></a>&nbsp
         <a href="linkedin.com/linkedin-username"><i class="fa-brands fa-linkedin"></i></a>&nbsp
         <a href="https://www.facebook.com/mootezbelleh.omrani"><i class="fa-brands fa-square-facebook"></i></a> 
     </section>
- <hr>
+    <hr>
 
-  <div>
-      <header id="header">
-          <!-- resume header with my name and title -->
-          <h1><a id="Resume"> Resume </a></h1>
-           Omrani Moôtez Belleh <br>
-           Geologist engineer
-
+    <div>
+        <header id="header">
+            <!-- resume header with my name and title -->
+            <h1><a id="Resume"> Resume </a></h1>
+            Omrani Moôtez Belleh <br>
+            Geologist engineer
         </header>
-     <main>
-         <article >
-               <section>
-                  <h2>ABOUT</h2>
-                  <!-- about me -->
+        <main>
+            <article >
+                <section>
+                    <h2>ABOUT</h2>
+                    <!-- about me -->
                     <p> 
-                       An enthusiastic Geological Engineer, seeking a position offering career opportunities
-                       for personal contribution and professional growth. <br>
-                       I have a great desire to build an
-                       expertise in mine, quarries and in oil and gas sector.
-                       Moreover, I am totally ready for a professional conversion especially in IT field. 
-                   </p>
-             </section>
- 
+                        An enthusiastic Geological Engineer, seeking a position offering career opportunities
+                        for personal contribution and professional growth. <br>
+                        I have a great desire to build an
+                        expertise in mine, quarries and in oil and gas sector.
+                        Moreover, I am totally ready for a professional conversion especially in IT field. 
+                    </p>
+            </section>
 
-             <section>
-                   <h2>SKILLS</h2>
-                   <!-- my skills -->
-                   <p>Res2Dinv; IP2Win; Resix; Winsev; ArcGIS; Corel Draw; Surfer; Rockworks;
-                     Interactive Petrophysics (IP); Neuralog; Office Pack
-                   </p>
-                   LANGUAGES: <br>
-                   ARABIC: MOTHER TONGUE <br>
-                   FRENCH: ADVANCED <br>
-                   English: UPPER INTERMEDIATE (B2) <br>
-                   GERMAN: BEGINNER
-             </section>
-             <section>
+            <section>
+                <h2>SKILLS</h2>
+                <!-- my skills -->
+                    <p>Res2Dinv; IP2Win; Resix; Winsev; ArcGIS; Corel Draw; Surfer; Rockworks;
+                        Interactive Petrophysics (IP); Neuralog; Office Pack
+                    </p>
+                    LANGUAGES: <br>
+                    ARABIC: MOTHER TONGUE <br>
+                    FRENCH: ADVANCED <br>
+                    English: UPPER INTERMEDIATE (B2) <br>
+                    GERMAN: BEGINNER
+            </section>
+            <section>
                 <h2>EDUCATION</h2>
                 <!-- my education -->
                     <h3>Geosciences Engineering</h3>
@@ -165,54 +159,62 @@
                 <p>
                     March-June 2022
                 </p>
-             </section>            
+            </section>            
             </article>
 
-           <article>
-               <section>
-                  <h2>WORK EXPERIENCE</h2>
-                   <!-- my work experience -->
-                   <h3>Geologist Engineer</h3>
-                   <p>
-                        Ksouri Well drilling | December 2020 - April 2021
-                   </p>
-                   <p>
+        <article>
+            <section>
+                <h2>WORK EXPERIENCE</h2>
+                <!-- my work experience -->
+                <h3>Geologist Engineer</h3>
+                <p>
+                    Ksouri Well drilling | December 2020 - April 2021
+                </p>
+                <p>
                         Technical Manager
-                   </p>
-                   <ul>
+                </p>
+                <ul>
                         <li>Well drilling reports</li>
                         <li>Define  geological, hydrogeological and environmentals contexts </li>
-                   </ul>
+                </ul>
 
 
-                  <h3>Geologist Engineer</h3>
-                   <p>
-                       Mining company (SEM) | August - November 2018
-                   </p>
+                <h3>Geologist Engineer</h3>
+                <p>
+                    Mining company (SEM) | August - November 2018
+                </p>
                 
-                   <ul>
+                <ul>
                         <li>To inspect drilling tasks and holes loading with explosives</li>
                         <li>To monitor exploitation galleries progress and stability</li>
                         <li>To schedule blasting and production tasks</li>
-                   </ul>
-             </section>
-               <h2>INTERESTS</h2>
-               <ul type="circle">
-                 <li>FOOTBALL REFEREE</li>
-                 <li>MEMBER IN PATRIOTE LIBRE ASSOCIATION</li>
-                 <li>GASTRONOMY / FITNESS /BODYBUILDING /FOOTING /TRAVEL</li>
-              </ul>
-              <h2>ADDITIONAL</h2>
-              <p id="add"> AVAILABLE IMMEDIATELY</p>
+                </ul>
+            </section>
+            <h2>INTERESTS</h2>
+                <ul type="circle">
+                    <li>FOOTBALL REFEREE</li>
+                    <li>MEMBER IN PATRIOTE LIBRE ASSOCIATION</li>
+                    <li>GASTRONOMY / FITNESS /BODYBUILDING /FOOTING /TRAVEL</li>
+                </ul>
+
+            <iframe
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/SlTrn13aez4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </iframe>
+
+
+            <h2>ADDITIONAL</h2>
+            <p id="add"> AVAILABLE IMMEDIATELY</p>
             </article>
         </main>
-  </div>
-  <hr>
+    </div>
+    <hr>
 
-  <footer>
-    <p class="F"> Author: Omrani Moôtez Belleh</p>
-    <p class="F"><a  style="color:#13a31d;" href="mootez.belleh.omrani.geologist@gmail.com">mootez.belleh.omrani.geologist@gmail.com</a></p>
-  </footer> 
+    <footer>
+        <p class="F"> Author: Omrani Moôtez Belleh</p>
+        <p class="F"><a  style="color:#13a31d;" href="mootez.belleh.omrani.geologist@gmail.com">mootez.belleh.omrani.geologist@gmail.com</a></p>
+    </footer> 
 
 
 </body>

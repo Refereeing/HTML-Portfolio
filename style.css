@@ -1,3 +1,4 @@
+
 *{
     /*margin: 0px;*/
 }
@@ -15,6 +16,7 @@ a:hover {
 
 nav li {
     display:inline-block !important;
+    list-style-type: none;
     background: rgb(235, 201, 90);
     color: #13a31d;
     width: 100px;
@@ -30,18 +32,41 @@ nav li {
     font-weight: 900;
     line-height: 30px;
     margin-top: 0px;
+    background-color: #396165;
+
     
 }
+nav li a {
+    text-decoration: none;
+    color: white;
 
+}
+.my {
+    width: 70px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.about-me > p {
+display: inline-block;
+} 
+.welcome {
+    justify-content: center;
+}
 .OMB {
-    color: #13a31d ;
+    color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center !important;
-    letter-spacing: 1px;
     word-spacing: 30px;
     font-size: xx-large;
-    /*text-align: justify;*/
+    backdrop-filter: blur;
+    border-radius: 7px;
+    background: transparent;
+    box-shadow:  -29px -29px 56px #b3b3b3, 29px 29px 56px #ffffff;
+    width: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -63,6 +88,10 @@ h4 {
     color:#13a31d ;
 }
 
+p {
+    
+}
+
 #about, #Vi1, #Vi2 {
     color:#13a31d;
     border: 1px solid black;
@@ -82,6 +111,7 @@ h4 {
 nav{
     height:20px;
     margin-bottom: 30px; 
+
 }
 .fa-brands {
     font-size:20px ;
